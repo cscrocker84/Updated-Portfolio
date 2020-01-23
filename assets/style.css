@@ -1,0 +1,93 @@
+.main-content{
+    background-color: white;
+    margin: 20px;
+    padding: 25px;
+
+}
+
+.card{
+    margin-right: 10px;
+    width: 50%;
+}
+
+
+
+.navbar-nav{
+    float: right;
+}
+
+.main-container{
+    padding: 10px;
+    
+}
+
+body{
+    background-image: url(images/beige-tiles.png);
+}
+
+.my-pic{
+    width: 150px;
+    height: 150px;
+}
+
+.heading{
+    border-bottom-style: solid;
+    border-color: #777777;
+    padding: 5px;
+}
+
+.top-heading{
+    border-top-style: solid;
+    border-color: #777777;
+    padding: 5px;
+}
+
+.tic-tac{
+    width: 125px;
+    height: 125px;
+    z-index: 2;
+}
+
+.overlay{
+    background-color: aqua;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 3;
+}
+
+.wider-form{
+    width: 100%;
+}
+
+.inline{
+    display: inline-block;
+}
+
+@media screen and (max-width: 576px){
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .main-container{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .main-content{
+        margin: 0%;
+        padding: 10%;
+    }
+
+    .inline{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .extra{
+        margin-bottom: 10px;
+    }
+}
